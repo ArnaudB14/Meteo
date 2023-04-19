@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Meteo</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Annuler</string>
+    <string name="main_error_city_empty">Vous devez saisir une ville</string>
+    <string name="main_error_network">Vous devez avoir une connexion internet</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="main_map_button">Voir sur la carte</string>
+</resources>

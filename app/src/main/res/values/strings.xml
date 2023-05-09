@@ -1,9 +1,16 @@
 <resources>
-    <string name="app_name">Meteo</string>
+    <string name="app_name">Météo</string>
     <string name="ok">Ok</string>
     <string name="cancel">Annuler</string>
     <string name="main_error_city_empty">Vous devez saisir une ville</string>
     <string name="main_error_network">Vous devez avoir une connexion internet</string>
-    <string name="title_activity_maps">MapsActivity</string>
-    <string name="main_map_button">Voir sur la carte</string>
+    <string name="title_activity_maps">Carte</string>
+    <string name="main_map_button">Voir les précipitations</string>
+    <string name="main_onglet1">Météo en direct</string>
+    <string name="main_onglet2">Météo à 5 jours</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="map_precipitations">Précipitations</string>
+    <string name="map_temperatures">Températures</string>
+    <string name="map_vents">Vents</string>
 </resources>

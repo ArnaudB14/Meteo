@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.Onglet2Fragment">
+
+    <TextView
+        android:id="@+id/textViewCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        tools:text="Caen"
+        android:textColor="#FFF"
+        android:shadowColor="#515151"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"/>
+
+    <ListView
+        android:id="@+id/listViewMeteo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_gravity="center_vertical"
+        android:listSelector="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="15dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@android:color/transparent"/>
+
+
+</LinearLayout>
